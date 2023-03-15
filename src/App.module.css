@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Source+Sans+Pro&display=swap');
+
+.card1:hover {
+  transform: scale(1.1);
+}
+
+.card2:hover {
+  transform: scale(1.1);
+}
+
+.card3:hover {
+  transform: scale(1.1);
+}
+
+.card4:hover {
+  transform: scale(1.1);
+}
+
+.cardturned{
+  background-image: url(https://opengameart.org/sites/default/files/card%20back%20purple.png);
+  background-size: cover;
+  align-content: center;
+  box-sizing: border-box;
+  background-color: #181a19;
+  color: #f9f871;
+  border: 1px solid black;
+  border-radius: 1px;
+  opacity: 10;
+  padding: 20px;
+  width: 210px;
+  height: 300px;
+  border-radius: 5%;
+  transition: transform .2s;
+}
+
+html{
+  background: rgb(255,202,229);
+  height: 100%;
+  background: linear-gradient(0deg, rgba(255,202,229,1) 0%, rgba(255,0,129,1) 200%);
+}
+
+a{
+  text-decoration: none;
+  color: #ffff00;
+}
+
+.thetext{
+  background-color: #181a19;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  top: 20px;
+  justify-content: center;
+  align-content: center;
+}
+
+.card1 {
+  background-image: url(https://i.pinimg.com/originals/df/1a/10/df1a1027f4d9fca4d9669257511e4df8.png);
+  background-size: cover;
+  align-content: center;
+  box-sizing: border-box;
+  background-color: #181a19;
+  color: #f9f871;
+  border: 1px solid black;
+  border-radius: 1px;
+  opacity: 10;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  border-radius: 5%;
+  transition: transform .2s;
+}
+
+.card2 {
+  background-image: url(https://i.pinimg.com/564x/2d/e2/29/2de229c977c617b21b158f95c3fa288e.jpg);
+  background-size: cover;
+  align-content: center;
+  box-sizing: border-box;
+  background-color: #181a19;
+  color: #f9f871;
+  border: 1px solid black;
+  border-radius: 1px;
+  opacity: 10;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  transition: transform .2s;
+  border-radius: 5%;
+}
+
+.card3 {
+  background-image: url(https://i.pinimg.com/564x/c2/8e/65/c28e65dbbb4617f5b4405dce80f14d53.jpg);
+  background-size: cover;
+  align-content: center;
+  box-sizing: border-box;
+  background-color: #181a19;
+  color: #f9f871;
+  border: 1px solid black;
+  border-radius: 1px;
+  opacity: 10;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  transition: transform .2s;
+  border-radius: 5%;
+}
+
+.card4 {
+  background-image: url(https://i.pinimg.com/564x/bb/e8/20/bbe820ae52556a451a9910d144120d47.jpg);
+  background-size: cover;
+  align-content: center;
+  box-sizing: border-box;
+  background-color: #181a19;
+  color: #f9f871;
+  border: 1px solid black;
+  border-radius: 1px;
+  opacity: 10;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  transition: transform .2s;
+  border-radius: 5%;
+}
+
+.infoBox {
+  background-image: url(https://i.pinimg.com/originals/df/1a/10/df1a1027f4d9fca4d9669257511e4df8.png);
+  background-size: cover;
+  align-content: center;
+  box-sizing: border-box;
+  background-color: #181a19;
+  color: #f9f871;
+  border: 5px solid #f9f871;
+  border-radius: 1px;
+  opacity: 10;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  transition: transform .2s;
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+}
