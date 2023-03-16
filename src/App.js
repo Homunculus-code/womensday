@@ -81,7 +81,7 @@ const App = () => {
       return(
         <>
         <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "25px"}}>
-        <h1 style = {{fontFamily: "Inconsolata", letterSpacing: "5px"}}>   WOMANIA</h1>
+        <h1 className = {styles.heading}>WOMANIA</h1>
         <div className = {styles.container}>
           <button className = {styles.card1}>
             <div className = {styles.thetext}>
@@ -109,7 +109,7 @@ const App = () => {
       return(
         <>
         <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "25px"}}>
-        <h1 style = {{fontFamily: "Inconsolata", letterSpacing: "5px"}}>   WOMANIA</h1>
+        <h1 className = {styles.heading}>   WOMANIA</h1>
         <div className = {styles.container}>
           <button className = {styles.cardturned}></button> 
           <button className = {styles.card2} onClick = {() => killme(1)}>
@@ -137,7 +137,7 @@ const App = () => {
       return(
         <>
         <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "25px"}}>
-        <h1 style = {{fontFamily: "Inconsolata", letterSpacing: "5px"}}>   WOMANIA</h1>
+        <h1 className = {styles.heading}>WOMANIA</h1>
         <div className = {styles.container}>
         <button className = {styles.cardturned}></button> 
         <button className = {styles.cardturned}></button> 
@@ -165,7 +165,7 @@ const App = () => {
       return(
         <>
         <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "25px"}}>
-        <h1 style = {{fontFamily: "Inconsolata", letterSpacing: "5px"}}>   WOMANIA</h1>
+        <h1 className = {styles.heading}>WOMANIA</h1>
         <div className = {styles.container}>
         <button className = {styles.cardturned}></button>  
         <button className = {styles.cardturned}></button>  
@@ -190,8 +190,8 @@ const App = () => {
     }
     return(
       <>
-      <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "25px"}}>
-        <h1 style = {{fontFamily: "Inconsolata", fontWeight: "bold", letterSpacing: "5px"}}>   WOMANIA</h1>
+      <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "5px"}}>
+        <h1 className = {styles.heading}>WOMANIA</h1>
         <div className = {styles.container}>
           <button className = {styles.card1} data-aos="flip-right" onClick = {() => killme(0)}></button> 
           <button className = {styles.card2} data-aos="flip-right" onClick = {() => killme(1)}></button> 

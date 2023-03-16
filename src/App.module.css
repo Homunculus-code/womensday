@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 .card1:hover {
   transform: scale(1.1);
@@ -14,6 +19,13 @@
 
 .card4:hover {
   transform: scale(1.1);
+}
+
+.heading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900px;
+  font-size: 70px;
+  opacity: 0.9;
 }
 
 .cardturned{
@@ -34,14 +46,19 @@
 }
 
 html{
-  background: rgb(255,202,229);
-  height: 100%;
-  background: linear-gradient(0deg, rgba(255,202,229,1) 0%, rgba(255,0,129,1) 200%);
+  background-image: url(https://i.ibb.co/LkSkVHW/Untitled.jpg);
+  background-size: 150px;
+}
+
+html::before{
+  background-image: url(https://i.pinimg.com/564x/91/24/4d/91244d13afb3771c8c0680a088ddc449.jpg);
+  background-size: 150px;
+  opacity: 0.1px;
 }
 
 a{
   text-decoration: none;
-  color: #ffff00;
+  color: magenta;
 }
 
 .thetext{
@@ -49,6 +66,7 @@ a{
   padding: 20px;
   text-align: center;
   border-radius: 5%;
+  font-family: 'Ubuntu Mono', monospace;  
 }
 
 .container{
