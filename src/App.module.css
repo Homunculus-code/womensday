@@ -42,18 +42,11 @@
   width: 210px;
   height: 300px;
   border-radius: 5%;
-  transition: transform .2s;
 }
 
 html{
   background-image: url(https://i.ibb.co/LkSkVHW/Untitled.jpg);
   background-size: 150px;
-}
-
-html::before{
-  background-image: url(https://i.pinimg.com/564x/91/24/4d/91244d13afb3771c8c0680a088ddc449.jpg);
-  background-size: 150px;
-  opacity: 0.1px;
 }
 
 a{

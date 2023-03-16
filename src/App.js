@@ -193,10 +193,10 @@ const App = () => {
       <div style = {{display: "flex", flexDirection: "column", alignItems: "center", gap: "5px"}}>
         <h1 className = {styles.heading}>WOMANIA</h1>
         <div className = {styles.container}>
-          <button className = {styles.card1} data-aos="flip-right" onClick = {() => killme(0)}></button> 
-          <button className = {styles.card2} data-aos="flip-right" onClick = {() => killme(1)}></button> 
-          <button className = {styles.card3} data-aos="flip-right" onClick = {() => killme(2)}></button> 
-          <button className = {styles.card4} data-aos="flip-right" onClick = {() => killme(3)}></button> 
+          <div data-aos="flip-right"><button className = {styles.card1} onClick = {() => killme(0)}></button></div>
+          <div data-aos="flip-right"><button className = {styles.card2} onClick = {() => killme(1)}></button></div>
+          <div data-aos="flip-right"><button className = {styles.card3} onClick = {() => killme(2)}></button></div>
+          <div data-aos="flip-right"><button className = {styles.card4} onClick = {() => killme(3)}></button></div>
         </div>
       </div>
       </>
