@@ -74,6 +74,9 @@ const App = () => {
     useEffect(() => {
       AOS.init();
     }, []);
+    useEffect(() => {
+      document.title = "Womania"
+    }, []);
     const killme = num => {
       setN(num);
     }
